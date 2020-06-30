@@ -2075,7 +2075,7 @@ body>div:last-of-type {
 
 /*Hoạt ảnh tin nhắn chưa đọc server*/
 .item-2hkk8m {
-    animation: var(--unread-server-animation) 3s linear infinite;
+    animation: var(--rgb-animation) 3s linear infinite;
     background-color: var(--main-color);
     border-radius: inherit;
     border-radius: 100%;
@@ -2138,24 +2138,24 @@ body>div:last-of-type {
 .colorStandard-2KCXvj a,
 .fakeLink-26oLcc,
 .metadataContent-3c_ZXw a {
-    animation: var(--unread-server-animation) 3s linear infinite;
+    animation: var(--rgb-animation) 3s linear infinite;
 }
 
 /*Hoạt ảnh tag bot*/
 span.botTagRegular-2HEhHi {
   background-color: rgba(0, 216, 86, 0) !important;
   border: 1px solid var(--main-color);
-  animation: rainbow 3s infinite linear;
+  animation: var(--rgb-animation) 3s infinite linear;
 }
 .botTagInvert-18-95s {
   background-color: rgba(0, 216, 86, 0) !important;
-  animation: rainbow 20s infinite linear;
+  animation: var(--rgb-animation) 20s infinite linear;
 }
 .botTagInvert-18-95s, .botTagRegular-2HEhHi, span.botTagRegular-2HEhHi {
   background-color: var(--secondary-background-color) !important;
   color: var(--main-color);
   border: 1px solid var(--main-color);
-  animation: rainbow 3s infinite linear;
+  animation: var(--rgb-animation) 3s infinite linear;
 }
 .botTag-2WPJ74{
   padding: .022rem .275rem;
@@ -2166,25 +2166,25 @@ span.botTagRegular-2HEhHi {
 
 /*Hoạt ảnh thông báo chưa đọc server*/
 .base-PmTxvP[style*="background-color: rgb(240, 71, 71);"]{
-  animation: rainbow 3s infinite linear;
+  animation: var(--rgb-animation) 3s infinite linear;
 }
 .base-PmTxvP{
   background: var(--background-color)!important;
   color: var(--main-color)!important;
   border: 1px solid var(--main-color);
-  animation: rainbow 3s infinite linear;
+  animation: var(--rgb-animation) 3s infinite linear;
 }
 
 /*Thay đổi hoạt ảnh khi tag tên*/
 .theme-dark .wrapper-3WhCwL:hover, .theme-dark .isMentioned-N-h9aa .mention:hover, .theme-light .isMentioned-N-h9aa .mention:hover, .theme-dark .wrapperHover-1GktnT:hover {
   background: var(--secondary-background-color);
   color: var(--Secondary-Main-Colour);
-  animation: rainbow 3s infinite linear;
+  animation: var(--rgb-animation) 3s infinite linear;
 }
 .theme-dark .wrapper-3WhCwL, .theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention, .theme-dark .wrapperHover-1GktnT {
   background: var(--secondary-background-color);
   color: var(--main-color);
-  animation: rainbow 3s infinite linear;
+  animation: var(--rgb-animation) 3s infinite linear;
 }
 
 /*Hoạt ảnh trên taskbar*/
@@ -2323,7 +2323,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-
   background: linear-gradient(to left, var(--secondary-background-color), var(--secondary-main-color))!important;
   border: 1px solid var(--main-color);
   transition: all 200ms;
-  animation: rainbow var(--Unread-Message-Speed) infinite linear;
+  animation: var(--rgb-animation) var(--Unread-Message-Speed) infinite linear;
 }
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU{
   background: linear-gradient(to left, var(--secondary-background-color), var(--secondary-main-color))!important;
@@ -2354,7 +2354,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-
 .theme-dark .topic-TCb_qw,
 .theme-dark .mobileIndicator-329Gd6 {
   color: var(--main-color) !important;
-  animation: var(--unread-server-animation) 10s linear infinite;
+  animation: var(--rgb-animation) 10s linear infinite;
 }
 .theme-dark .modal-yWgWj- {
   background-color: var(--background-colour);
@@ -2369,11 +2369,11 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-
   background: linear-gradient(to left, var(--secondary-background-color), var(--secondary-main-color))!important;
   border: 1px solid var(--main-color);
   transition: all 200ms;
-  animation: rainbow var(--Unread-Message-Speed) infinite linear;
+  animation: var(--rgb-animation) var(--Unread-Message-Speed) infinite linear;
 }
 .theme-dark .unwrapped-37iUtM.clickable-nnkAZy, .theme-dark .wrapped-15rg6t,.theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover{
   background: linear-gradient(to left, var(--secondary-background-color), var(--secondary-main-color))!important;
   border: 1px solid var(--main-color);
   transition: all 200ms;
-  animation: rainbow var(--Unread-Message-Speed) infinite linear;
+  animation: var(--rgb-animation) var(--Unread-Message-Speed) infinite linear;
 }
