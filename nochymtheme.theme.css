@@ -1,0 +1,520 @@
+//META{"name":"nochymtheme","description":"Được thực hiện bởi ♪...NoChym#6339, Hỗ trợ tại đây https://discord.gg/ckTw3Rc","author":"♪...NoChym#6339","version":"1"}*//{}
+@import url(https://cdn.discordthemes.net/file/notanotheranimetheme/scsl.css);
+/* Import any custom fonts here */
+@import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
+/* To make editing this theme easier I recommend using Notepad++ , you can download it for free here - https://notepad-plus-plus.org/download/ */
+
+/* Any images you use MUST end with .jpg or .png or any other image extension */
+/* This is NOT a valid link, https://imgur.com/a/ycjL2 */
+/* THIS IS A VALID LINK https://i.imgur.com/rCqnrQ7.jpg */
+
+/* If you find an image I would STRONGLY recommend rehosting the image on imgur https://imgur.com/upload */
+
+:root {
+	/*
+	Thay đổi hình nền
+	*/
+	--background-image: url(https://i.pinimg.com/originals/3e/ed/c9/3eedc9afb28fb47f00495d0e9b9ea712.jpg);
+	--background-image2: url(https://i.pinimg.com/originals/39/31/ae/3931ae60f72993f5125d3a4cd90ab632.jpg);
+	/*
+	Thay đổi hình nền khi nhấn vào bạn bè hay thành viên
+	*/
+	--Popout-Background: url(https://i.pinimg.com/originals/e4/7e/01/e47e0156cb73fe986215c60598a8c439.jpg);
+
+	/*
+	Thay đổi hình nền khi xem profile bạn bè hay thành viên
+	*/
+	--Popout-Background1: url(https://i.pinimg.com/originals/a1/3f/e2/a13fe2310fc3c974ad63871647819b53.jpg);
+
+	/*
+	Thay đổi hình nền khi up load
+	*/
+	--Popout-Background2: url(https://i.pinimg.com/originals/52/7e/a3/527ea301cbb02e375ad608ef904be752.jpg);
+
+	/*
+	Thay đổi hình của nút home discord
+	*/
+	--friends-icon: url(https://i.pinimg.com/originals/fc/1a/fe/fc1afe5111ce34d578b6898ddc032e0d.gif);
+
+	/*
+	Thay đổi vị trí icon hình của bạn bè
+	*/
+	--friends-icon-position: center center;
+
+	/*
+	Thay đổi độ to của nút home discord
+	*/
+	--friends-icon-zoom: 100%;
+
+	/*
+	Thay đổi màu nền chính
+	*/
+	--main-color: rgba(250, 75, 221, 1);
+	--background-color: rgba(0, 0, 0, 0);
+	--secondary-main-color: rgba(255, 0, 162, 0.5);
+	--secondary-background-color: rgba(230, 0, 255, 0);
+
+	/*
+	Thay đổi độ trong suốt của hình nền, dùng để điều chỉnh độ sáng tối của hình nền
+	*/ 
+	--main-transparency: rgba(0, 0, 0, 0);
+
+	/*
+	Thay đổi màu của chưa đọc tin server, thay thế với "none" sẽ thay đổi hoạt ảnh và sử dụng màu nền chính
+	*/
+	--unread-server-animation: rainbow;
+
+	/*
+	Thay đổi màu nền khi di chuột vào bạn bè hoặc thành viên
+	Default: rgba(255, 255, 255, .15)
+	*/
+	--hover-list-bg-color: rgba(252, 48, 246, .15);
+
+	/*
+	Change the color of the borders between messages
+	Default: hsla(0,0%,100%,.1)
+	*/
+	--border-lines-color: hsla(0,0%,100%,.1);
+
+	/*
+	Thay đổi màu thanh trượt
+	Default: rgba(255,255,255, .15)
+	*/
+	--scroll-bar-color: rgba(250, 75, 215, .30);
+
+	/*
+	Thay đổi kích thước chữ, bạn có thể sử dụng bất kì loại: px, em, rem, %
+	Default: 16px
+	*/
+	--font-size: 16px;
+
+	/*
+	Thay đổi màu khi chọn kênh chat hay kênh trò chuyện
+	Default: #f6f6f7
+	*/
+	--selected-text-voice-color: rgba(255, 0, 64, 1);
+
+	/*
+	Thay đổi màu chữ khi di chuột vào kênh chat hay kênh trò chuyện
+	Default: rgba(255, 255, 255, 0.75)
+	*/
+	--channel-hover-text-color: rgba(255, 0, 64, 1);
+
+	/*
+	Thay đổi màu của kênh chat chưa đọc
+	Default: #ff00f7
+	*/
+	--unread-text-color: #9900ff;
+	/*
+	Thay đổi tốc độ thông báo tin nhắn chưa đọc
+	*/
+	--Unread-Message-Speed: 1.5s;
+
+	/*
+	Thay đổi độ trong suốt khi nhấn vào bạn bè hay thành viên(nếu sử dụng thay đổi hình nền khi nhấn vào bạn bè thì cái này sẽ bị tắt)
+	Default: rgba(0, 0, 0, 0.8)
+	*/
+	--user-popup-background: rgba(0, 0, 0, 0);
+
+	--Update-Text: " Update #1";
+	--Theme-Variant: " From NoChym with love";
+	--ChangelogSize: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"></svg>');
+	--Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://github.com/vuadaorong</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://discord.gg/ckTw3Rc</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: </text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixes. __</text><text y="95" style="font-size: 1em;" x="0">__+ Even More Bug Fixes! __</text></g></svg>');
+}
+
+/* Thêm bất kì code nào mà bạn có thể nghĩ ra */
+
+/*Hình nền khi nhấn vào bạn bè hay thành viên*/
+.userPopout-3XzG_A {
+    box-shadow: none;
+    background: var(--Popout-Background)50% 50%/cover;
+    border: 1px solid var(--main-color);
+}
+
+/*Hoạt ảnh tin nhắn chưa đọc server*/
+.item-2hkk8m {
+    animation: var(--unread-server-animation) 3s linear infinite;
+    background-color: var(--main-color);
+    border-radius: inherit;
+    border-radius: 100%;
+    display: block;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    width: 8px;
+    height: 8px !important;
+    z-index: 10;
+}
+
+/*Hình nền khi xem profile*/
+.modal-3c3bKg > div.inner-1ilYF7 > div{
+  background: var(--Popout-Background1) 50% 50%/cover!important;
+}
+
+/*Chỉnh độ trong suốt hình nền profile*/
+.inner-1ilYF7 > div > [class*="topSection"]{
+  background-color: rgba(0, 0, 0, 0)!important;
+}
+.modal-3c3bKg > div.inner-1ilYF7 > div > [class*=".top"],
+.modal-3c3bKg > div.inner-1ilYF7 > div > .body-3ND3kc{
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/*Thay đổi màu khi nói và làm icon xoay*/
+.avatarSpeaking-3MqCHL {
+  box-shadow: inset 0 0 0 3px var(--main-color);
+  animation: Talking 3s infinite linear;
+}
+@keyframes Talking {
+  0% {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+    transform: rotate(-360deg) scale(1);
+    box-shadow: 0 0 0 2px var(--main-color)
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+    transform: rotate(360deg) scale(1);
+    box-shadow: 0 0 0 2px var(--main-color)
+  }
+}
+
+/*Thay đổi nền khi có người gọi tới*/
+.theme-dark .incomingCallInner-2VmFiR {
+  background: var(--Popout-Background1) 50% 50%/cover;
+}
+
+/*Hoạt ảnh link*/
+.standardSidebarView-3F1I7i a,
+.theme-dark .card-3Qj_Yx a,
+.bda-slist .bda-footer a,
+.content-8biNdB a,
+.footer-3rDWdC a,
+.lookLink-9FtZy-.colorLink-35jkBc,
+.theme-dark .markup-2BOw-j a,
+.quickswitcher-3JagVE a,
+.theme-dark .topic-TCb_qw a,
+.filenameLinkWrapper-1-14c5 a,
+.operations-36ENbA>a,
+.theme-dark .welcomeMessage-ULm0mo a,
+.localBotMessage-1cGMdw a,
+.theme-dark .container-3-pyIM .content-2M3n_H a,
+.helpText-h3r3wC a,
+.lookLink-9FtZy-.colorBrand-3pXr91,
+.emptyStateSubtext-2njjqg a,
+.theme-dark .container-2x5lvQ section a,
+.colorStandard-2KCXvj a,
+.fakeLink-26oLcc,
+.metadataContent-3c_ZXw a {
+    animation: var(--unread-server-animation) 3s linear infinite;
+}
+
+/*Hoạt ảnh tag bot*/
+span.botTagRegular-2HEhHi {
+  background-color: rgba(0, 216, 86, 0) !important;
+  border: 1px solid var(--main-color);
+  animation: rainbow 3s infinite linear;
+}
+.botTagInvert-18-95s {
+  background-color: rgba(0, 216, 86, 0) !important;
+  animation: rainbow 20s infinite linear;
+}
+.botTagInvert-18-95s, .botTagRegular-2HEhHi, span.botTagRegular-2HEhHi {
+  background-color: var(--secondary-background-color) !important;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  animation: rainbow 3s infinite linear;
+}
+.botTag-2WPJ74{
+  padding: .022rem .275rem;
+}
+.px-10SIf7.botTag-2WPJ74{
+  margin-top: -2px;
+}
+
+/*Hoạt ảnh thông báo chưa đọc server*/
+.base-PmTxvP[style*="background-color: rgb(240, 71, 71);"]{
+  animation: rainbow 3s infinite linear;
+}
+.base-PmTxvP{
+  background: var(--background-color)!important;
+  color: var(--main-color)!important;
+  border: 1px solid var(--main-color);
+  animation: rainbow 3s infinite linear;
+}
+
+/*Thay đổi hoạt ảnh khi tag tên*/
+.theme-dark .wrapper-3WhCwL:hover, .theme-dark .isMentioned-N-h9aa .mention:hover, .theme-light .isMentioned-N-h9aa .mention:hover, .theme-dark .wrapperHover-1GktnT:hover {
+  background: var(--secondary-background-color);
+  color: var(--Secondary-Main-Colour);
+  animation: rainbow 3s infinite linear;
+}
+.theme-dark .wrapper-3WhCwL, .theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention, .theme-dark .wrapperHover-1GktnT {
+  background: var(--secondary-background-color);
+  color: var(--main-color);
+  animation: rainbow 3s infinite linear;
+}
+
+/*Hoạt ảnh trên taskbar*/
+.info-1VyQPT > .colorMuted-HdFt4q.size12-3cLvbJ:first-of-type:before {
+  content: var(--Theme-Variant) ", "var(--Update-Text)" by NoChym \a" !important;
+}
+[layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after{
+  margin-top: 10px;
+  margin-bottom: -3px;
+  padding-top: 10px;
+  padding-left: 10px;
+  left: 20%;
+  margin-left: -5px;
+  position: absolute;
+  display: block;
+  background: linear-gradient(to top, red, violet, indigo, blue, green, yellow, orange, red);
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  content: var(--ChangelogSize) var(--Theme-Variant)", "var(--Update-Text);
+  text-align: center;
+  animation: UploaderBG 10s infinite linear;
+  z-index: 9997;
+  color: var(--main-color);
+  width: 50%;
+  -webkit-mask: var(--Changelog);
+  -webkit-mask-repeat: no-repeat;
+  background-size: 200% 200%!important;
+}
+@keyframes UploaderBG {
+  0% {
+    background-position: 200% 200%
+  }
+  100% {
+    background-position: 0 -200%
+  }
+}
+
+[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after{
+  content:var(--Theme-Variant)", "var(--Update-Text);
+  color: var(--main-color);
+}
+
+body:before {
+  content: "Phiên bản hiện tại" var(--Update-Text);
+  background: var(--background-color);
+  border: 1px solid var(--main-color);
+  left: 50%;
+  border-radius: 5px;
+  padding: 5px 15px;
+  transform: translate(-50%, -100%);
+  animation: Notif 4s , CLog 3s infinite linear;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  z-index: 9997;
+  color: var(--main-color);
+}
+.native-toolbar .titlebar:after {
+  content: ", " var(--Theme-Variant) ", " var(--Update-Text);
+  position: absolute;
+  left: 5px;
+  bottom: 3px;
+  color: var(--main-color);
+  font-family: "Discord";
+}
+.wordmark-2iDDfm:after {
+  content: ", "  var(--Theme-Variant) ", " var(--Update-Text);
+  color: var(--main-color);
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  width: 4000px;
+  top: 5px;
+  padding-left: 3px;
+  font-family: "Discord";
+}
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm:after {
+	content:  ", "  var(--Theme-Variant) ", " var(--Update-Text) !important;
+	display: inline !important;
+	position: absolute !important;
+	top: unset !important;
+	left: unset !important;
+	bottom: 5px !important;
+	right: unset !important;
+	opacity: 1 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	visibility: visible !important;
+        animation: unset !important;
+	transform: unset !important;
+	
+}
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-19_DXt > div.app-2rEoOp.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div.layer-3QrUeG + div.layer-3QrUeG > div > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y > div.scroller-2FKFPG.sidebarRegionScroller-3MXcoP > div.sidebar-CFHs9e > div.side-8zPYf6 > span#bd-settings-sidebar:after {
+	content: var(--Theme-Variant) " by " !important;
+	font-size: 12px !important;
+	font-weight: 600 !important;
+	color: var(--secondary-main-color) !important;
+	display: inline !important;
+	opacity: 1 !important;
+	padding: 2px 10px !important;
+	margin: 0 !important;
+	cursor: default !important;
+	visibility: visible !important;
+	position: relative !important;
+	top: 0 !important;
+	left: -20px !important;
+	bottom: 0 !important;
+	right: 0 !important;
+	transform: unset !important;
+	animation: unset !important;
+}
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm {
+	display: block !important;
+	position: absolute !important;
+	max-width: unset !important;
+	min-width: unset !important;
+	width: 100vw !important;
+	max-height: unset !important;
+	min-height: unset !important;
+	height: 16px !important;
+	margin: 0 !important;
+	padding: 4px 8px 3px !important;
+	top: 0 !important;
+	left: 0 !important;
+	bottom: unset !important;
+	right: unset !important;
+	opacity: 0.6 !important;
+	visibility: visible !important;
+	transform: unset !important;
+	animation: TextScroll 20s infinite linear !important;
+}
+@keyframes Notif {
+  from, to {
+    transform: translate(-50%, -100%);
+    opacity: 0
+  }
+  20%, 80% {
+    transform: translate(-50%, 10%);
+    opacity: 1
+  }
+}
+@keyframes CLog {
+  from {
+    -webkit-filter: hue-rotate(0)
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg)
+  }
+}
+@keyframes TextScroll {
+  from {
+    left: -280px
+  }
+  to {
+    left: 100%
+  }
+  0% {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+  }
+  20% {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+  }
+}
+
+/*Hoạt ảnh chưa đọc tin nhắn kênh chat*/
+.modeUnread-1zpFdA > .content-3at_AU{
+  border: 1px var(--secondary-main-color) solid !important;
+  background: linear-gradient(to left, var(--secondary-background-color), var(--secondary-main-color), var(--background-color))!important;
+  background-size: 200% 200%!important;
+  animation: Unreadpulse var(--Unread-Message-Speed) infinite ease-in-out;
+}
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,.theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-light .wrapper-1ucjTd:hover .content-3at_AU{
+  background: linear-gradient(to left, var(--secondary-background-color), var(--secondary-main-color))!important;
+  border: 1px solid var(--main-color);
+  transition: all 200ms;
+  animation: rainbow var(--Unread-Message-Speed) infinite linear;
+}
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU{
+  background: linear-gradient(to left, var(--secondary-background-color), var(--secondary-main-color))!important;
+  background-size: 200% 200%;
+}
+@keyframes Unreadpulse {
+  0% {
+    background-position: 50% -150%
+  }
+  50% {
+    background-position: 200% 50%
+  }
+  100% {
+    background-position: 50% -150%
+  }
+  0% {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+  }
+  50% {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+  }
+}
+
+/*Thay đổi màu các thuộc tính*/
+.theme-dark .icon-22AiRD,
+.theme-dark .base-1x0h_U,
+.theme-dark .colorStandard-2KCXvj:not(.usernameContainer-1fp4nu),
+.theme-dark .header-3uLGFv,
+.theme-dark .whiteButton-1lwF-y,
+.theme-dark .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.theme-dark .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,
+.theme-dark .themed-OHr7kt.item-PXvHYJ:hover,
+.tutorialMessages-12mfId,
+.theme-dark .input-3Xdcic,
+.theme-dark .wrapper-1ucjTd.modeMuted-3osy7j:hover .name-3_Dsmg,
+.theme-dark .wrapper-1ucjTd.modeConnected-2IEL4z .name-3_Dsmg,
+.theme-dark .wrapper-1ucjTd.modeConnected-2IEL4z:hover .name-3_Dsmg,
+.wrapper-CU3qI5:hover,
+.container-2Thooq,
+.theme-dark .icon-3cZ1F_,
+.theme-dark .transparent-2ZlE3R .title-29uC1r,
+.theme-dark .nicknames-1XK4Zt,
+.theme-dark .wrapper-1ucjTd.modeMuted-3osy7j .name-3_Dsmg,
+.theme-dark .topic-TCb_qw,
+.theme-dark .mobileIndicator-329Gd6 {
+  color: var(--main-color) !important;
+  animation: var(--unread-server-animation) 10s linear infinite;
+}
+.theme-dark .modal-yWgWj- {
+  background-color: var(--background-colour);
+  -webkit-box-shadow: 0 0 0 1px var(--main-color), 0 2px 10px 0 var(--secondary-main-color);
+  box-shadow: 0 0 0 1px var(--main-color), 0 2px 10px 0 var(--secondary-main-color);
+}
+
+
+
+/*User Setting*/
+.theme-dark .unwrapped-37iUtM.clickable-nnkAZy:hover, .theme-dark .wrapped-15rg6t,.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover{
+  background: linear-gradient(to left, var(--secondary-background-color), var(--secondary-main-color))!important;
+  border: 1px solid var(--main-color);
+  transition: all 200ms;
+  animation: rainbow var(--Unread-Message-Speed) infinite linear;
+}
+.theme-dark .unwrapped-37iUtM.clickable-nnkAZy, .theme-dark .wrapped-15rg6t,.theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover{
+  background: linear-gradient(to left, var(--secondary-background-color), var(--secondary-main-color))!important;
+  border: 1px solid var(--main-color);
+  transition: all 200ms;
+  animation: rainbow var(--Unread-Message-Speed) infinite linear;
+}
