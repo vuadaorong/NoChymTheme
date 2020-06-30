@@ -33,3 +33,80 @@
         filter: hue-rotate(360deg);
     }
 }
+
+/*Hoạt ảnh trên background*/
+@keyframes UploaderBG {
+  0% {
+    background-position: 200% 200%
+  }
+  100% {
+    background-position: 0 -200%
+  }
+}
+
+@keyframes Notif {
+  from, to {
+    transform: translate(-50%, -100%);
+    opacity: 0
+  }
+  20%, 80% {
+    transform: translate(-50%, 10%);
+    opacity: 1
+  }
+}
+
+@keyframes CLog {
+  from {
+    -webkit-filter: hue-rotate(0)
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg)
+  }
+}
+
+@keyframes TextScroll {
+  from {
+    left: -280px
+  }
+  to {
+    left: 100%
+  }
+  0% {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+  }
+  20% {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+  }
+}
+
+/*Hoạt ảnh chưa đọc tin server*/
+@keyframes Unreadpulse {
+  0% {
+    background-position: 50% -150%
+  }
+  50% {
+    background-position: 200% 50%
+  }
+  100% {
+    background-position: 50% -150%
+  }
+  0% {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+  }
+  50% {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+  }
+}
