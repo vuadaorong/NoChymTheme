@@ -745,6 +745,20 @@ div.unread-mentions-indicator-bottom {
     animation: var(--unread-server-animation) 3s linear infinite;
 }
 
+@keyframes rainbow {
+    0% {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        filter: hue-rotate(0);
+    }
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
 
 .theme-dark .container-1ETFDs .homeButton-2Cw51C {
     background: transparent;
@@ -1417,6 +1431,11 @@ padding: 0 !important;
     border-color: transparent;
 }
 
+
+.userPopout-3XzG_A {
+    box-shadow: none;
+    background: var(--user-popup-background, var(--main-transparency));
+}
 
 .bodyTitle-Y0qMQz {
     color: #fff;
