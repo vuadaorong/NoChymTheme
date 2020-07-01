@@ -2396,3 +2396,8 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-
   transition: all 200ms;
   animation: var(--rgb-animation) var(--Unread-Message-Speed) infinite linear;
 }
+
+/*member*/
+#app-mount .membersWrap-2h-GB4{
+  background: var(--main-transparency);
+}
