@@ -2397,7 +2397,3 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-
   animation: var(--rgb-animation) var(--Unread-Message-Speed) infinite linear;
 }
 
-
-.membersWrap-2h-GB4 {							/* độ trong suốt của thành viên			container			*/
-	background: var(--main-transparency);
-}
