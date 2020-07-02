@@ -7,6 +7,8 @@
   --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://github.com/vuadaorong</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://discord.gg/ckTw3Rc</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: </text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixes. __</text><text y="95" style="font-size: 1em;" x="0">__+ Even More Bug Fixes! __</text></g></svg>');
 }
 
+/* Don't touch this */
+
 html {
     font-size: var(--font-size) !important;
 }
@@ -1659,27 +1661,34 @@ padding: 0 !important;
     margin-left: 0;
     margin-bottom: 20px;
 }
+
 .wrapper-1Rf91z .scroller-2TZvBN > div.listItem-2P_4kh:nth-child(1) .item-2hkk8m {
     opacity: 0 !important;
 }
+
 .wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > div {
     width: 50px;
     margin-left: 7px;
 }
+
 .wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > div .item-2hkk8m {
     opacity: 0 !important;
 }
+
 .wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > div .wrapper-sa6paO {
     display: none !important;
 }
+
 .listItem-2P_4kh {
     width: auto;
     margin-left: 9px;
 }
+
 .wrapper-sa6paO {
     height: 10px;
     width: 54px;
 }
+
 .item-2hkk8m {
     animation: var(--unread-server-animation) 3s linear infinite;
     background-color: var(--main-color);
@@ -1695,11 +1704,13 @@ padding: 0 !important;
     height: 8px !important;
     z-index: 10;
 }
+
 .pill-31IEus {
     left: 0;
     position: absolute;
     top: -4px;
 }
+
 .wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
     position: relative;
     width: 100%;
