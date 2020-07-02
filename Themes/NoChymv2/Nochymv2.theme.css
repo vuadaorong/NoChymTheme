@@ -1,7 +1,7 @@
-//META{"name":"BasicNochym","description":"Sử dụng themes để làm Discord của bạn nổi bật hơn.","author":"NoChym","version":"1.0.5","authorId":"278543574059057154","invite":"ckTw3Rc","donate":"","patreon":"","website":"https://github.com/vuadaorong/nochymtheme/tree/master/Themes/BasicNochym","source":"https://raw.githubusercontent.com/vuadaorong/nochymtheme/master/Themes/BasicNochym/BasicNochym.theme.css"}*//{}
+//META{"name":"NoChymv2","description":"Sử dụng themes để làm Discord của bạn nổi bật hơn.","author":"NoChym","version":"1.0.5","authorId":"278543574059057154","invite":"ckTw3Rc","donate":"","patreon":"","website":"https://github.com/vuadaorong/nochymtheme/tree/master/Themes/BasicNochym","source":"https://raw.githubusercontent.com/vuadaorong/nochymtheme/master/Themes/BasicNochym/BasicNochym.theme.css"}*//{}
 
-@import url(https://vuadaorong.github.io/nochymtheme/Themes/BasicNochym/BasicNochym.css);
-
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
+@import url(https://vuadaorong.github.io/nochymtheme/Themes/NoChymv2/Animations/Yes.css);
 :root {
 	--transparencycolor:			0,0,0;						/* default:	0,0,0																								*/
 	--transparencyalpha:			0.15;						/* default: 0.15				(general darkness of the app)													*/
