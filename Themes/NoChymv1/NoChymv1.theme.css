@@ -1,8 +1,8 @@
 //META{"name":"NoChymv1","description":"Được thực hiện bởi ♪...NoChym#6339, Hỗ trợ tại đây https://discord.gg/ckTw3Rc","author":"♪...NoChym#6339","version":"1"}*//{}
 @import url(https://puckzxz.github.io/NotAnotherAnimeTheme/css/scsl.css);
+@import url(https://vuadaorong.github.io/nochymtheme/Themes/NoChymv1/Update.css);
 /* Bật tắt hoạt ảnh animation (Chỉnh No thành Yes để kích hoạt) */
-
-
+@import url(https://vuadaorong.github.io/nochymtheme/Themes/NoChymv1/Animations/Yes.css);
 /* Bất kì hình ảnh nào phải kết thúc bằng 1 định dạng (Ví Dụ: jpg) */
 /* ĐÂY KHÔNG PHẢI là LINK, https://imgur.com/a/ycjL2 */
 /* THÂY LÀ LINK https://i.imgur.com/rCqnrQ7.jpg */
