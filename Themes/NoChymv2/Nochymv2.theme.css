@@ -2,6 +2,7 @@
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
 @import url(https://vuadaorong.github.io/nochymtheme/Themes/NoChymv2/Animations/Yes.css);
+@import url(https://vuadaorong.github.io/nochymtheme/Themes/NoChymv2/UPDATE.css);
 :root {
 	--transparencycolor:			0,0,0;						/* default:	0,0,0																								*/
 	--transparencyalpha:			0;							/* default: 0.15				(general darkness of the app)													*/
