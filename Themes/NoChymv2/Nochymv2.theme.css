@@ -1,13 +1,14 @@
 //META{"name":"NoChymv2","description":"Sử dụng themes để làm Discord của bạn nổi bật hơn.","author":"NoChym","version":"1.0.5","authorId":"278543574059057154","invite":"ckTw3Rc","donate":"","patreon":"","website":"https://github.com/vuadaorong/nochymtheme/tree/master/Themes/BasicNochym","source":"https://raw.githubusercontent.com/vuadaorong/nochymtheme/master/Themes/BasicNochym/BasicNochym.theme.css"}*//{}
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
-@import url(https://vuadaorong.github.io/nochymtheme/Themes/NoChymv2/Animations/Yes.css);
+@import url(https://vuadaorong.github.io/nochymtheme/Themes/NoChymv2/Animation/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css);
 @import url(https://vuadaorong.github.io/nochymtheme/Themes/NoChymv2/UPDATE.css);
 :root {
 	--transparencycolor:			0,0,0;						/* default:	0,0,0																								*/
 	--transparencyalpha:			0;							/* default: 0.15				(general darkness of the app)													*/
 	--messagetransparency:			0.1;						/* default: 0.5					(additional shadows behind messages, set to 0 to remove boxes)					*/
-	--guildchanneltransparency:		0;						/* default: 0.15				(additional darkness for guild/channel list)									*/
+	--guildchanneltransparency:		0;							/* default: 0.15				(additional darkness for guild/channel list)									*/
 	--memberlisttransparency:		0.0;						/* default: 0.0					(additional darkness for member list)											*/
 	--accentcolor:					190,78,180;					/* default: 190,78,180			(RGB-format - blurple: 114,137,218 bd-blue: 58,113,193)							*/
 	
@@ -17,6 +18,8 @@
 	--background:					url(https://images8.alphacoders.com/959/959266.jpg);	/* general background image						*/
 	--background-member:			url(https://images5.alphacoders.com/996/996840.jpg);	/* hình nền thành viên*/
 	--background-member-pl:			url(https://images6.alphacoders.com/102/1029182.jpg);	/* hình nền profile*/
+	--home-icon:					url(https://i.pinimg.com/originals/fc/1a/fe/fc1afe5111ce34d578b6898ddc032e0d.gif);/*Home icon*/
+	--home-icon-position:			center center;
 	--backgroundsize:				cover;						/* default: cover				(sizefit of general background - values: [cover/contain/auto])					*/
 	--backgroundblur:				0px;						/* default: 0px					(only works when --background is set to an image)								*/
 	
@@ -30,4 +33,5 @@
 	
 	--version1_0_5:					none;						/* DO NOT CHANGE, USED TO HIDE UPDATE NOTICE																	*/
 	--rgb-animation: 				rainbow;					/* Hoạt ảnh RGB*/
+	--rgb-speed:					1.5s;						/* Tốc độ chuyển động màu RGB*/			
 }
