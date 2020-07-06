@@ -7648,3 +7648,27 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 
+/*UPDATE1*/
+.standardSidebarView-3F1I7i a,
+.theme-dark .card-3Qj_Yx a,
+.bda-slist .bda-footer a,
+.content-8biNdB a,
+.footer-3rDWdC a,
+.lookLink-9FtZy-.colorLink-35jkBc,
+.theme-dark .markup-2BOw-j a,
+.quickswitcher-3JagVE a,
+.theme-dark .topic-TCb_qw a,
+.filenameLinkWrapper-1-14c5 a,
+.operations-36ENbA>a,
+.theme-dark .welcomeMessage-ULm0mo a,
+.localBotMessage-1cGMdw a,
+.theme-dark .container-3-pyIM .content-2M3n_H a,
+.helpText-h3r3wC a,
+.lookLink-9FtZy-.colorBrand-3pXr91,
+.emptyStateSubtext-2njjqg a,
+.theme-dark .container-2x5lvQ section a,
+.colorStandard-2KCXvj a,
+.fakeLink-26oLcc,
+.metadataContent-3c_ZXw a {
+    animation: var(--rgb-animation) var(--rgb-speed) linear infinite;
+}
