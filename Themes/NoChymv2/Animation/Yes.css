@@ -110,6 +110,7 @@
     -ms-filter: hue-rotate(0);
   }
 }
+:root {
 .theme-light, .theme-dark, .theme-amoled{
 	--background-secondary: rgba(var(--transparencycolor), 0);
 	--background-secondary-alt: rgba(var(--transparencycolor), 0);
@@ -242,4 +243,5 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUES
 	right: unset !important;
 	transform: unset !important;
 	animation: var(--rgb-animation) var(--rgb-speed) infinite linear !important;
+}
 }
